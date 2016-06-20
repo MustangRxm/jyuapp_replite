@@ -152,6 +152,7 @@ class reptile_sub():
 if __name__ == '__main__':
     leancloud.init('', '')
     def checkUpdate_JyuNews():
+
         #检查是否有更新
         rep= reptile()
         rssUrl = 'http://feed43.com/3160128438708337.xml'
